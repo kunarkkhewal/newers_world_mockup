@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 1% 20%;
+    padding: 50px;
+    border: 5px solid lightgrey;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header div{
+    position: relative;
+    padding-bottom: 1%;
+}
+
+header h1{
+    font-size: 4vw;
+    /* color: blueviolet; */
+    background: -webkit-linear-gradient(90deg,blue,blueviolet,magenta);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header div p{
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+}
+
+
+
+/* styling for main part */
+
+main{
+    padding: 10% 3%;
+}
+
+main p{
+    text-align: justify; 
+}
+
+.sec{
+    display: flex;
+    justify-content: space-between;
+    margin:3% 0;
+}
+
+.sec-2{
+    font-size: 16pt;
+    color: rgba(35, 31, 32, 255);
+}
+
+.art-1, .art-2{
+    width: 47%;
+    font-size: 16pt;
+    color: rgba(35, 31, 32, 255);
+}
+
+#img-sec{
+    width: 100%;
+    position: relative;
+}
+
+#img-sec img{
+    padding: 0 2%;   
+
+}
+
+#img-left{
+    max-width: 800px;
+    max-height: 500px;
+}
+
+#img-up{
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 400px;
+    max-height: 150px;
+}
+
+#img-down{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 400px;
+    max-height: 150px;
+} 
+
+.sec-5{
+    margin-top: 10%;
+}
+
+.sec-5 .heading{
+    text-align: center;
+    padding: 2% 0;
+    border: 1px solid grey;
+    width: 27%;
+    margin: 4% auto;
+    position: relative;
+}
+
+.heading h2{
+    position: absolute;
+    width: 300px;
+    background-color: white;
+    left: -25px;
+    top: 5px;
+}
+
+.sec-5 .articles{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.articles article{
+    width: 45%; 
+    margin: 3% 0;
+    font-size: 16pt;
+}
+
+.articles article a{
+    text-decoration: none;
+    color: magenta;
+}
+
+
+
+/* footer part styling */
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    padding: 2%;
+    margin: 2%;
+    border: 3px solid grey;
+    border-radius: 50%;
+    color: grey;
+    font-size: 25px;
+}
